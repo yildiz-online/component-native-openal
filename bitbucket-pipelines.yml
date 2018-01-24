@@ -3,15 +3,11 @@ image: moussavdb/yildiz-build-native-image
 pipelines:
   default:
     - step:
-        caches:
-          - maven
         script:
           - mvn -V -B -s settings.xml package
   branches:
     master:
       - step:
-          caches:
-            - maven
           script:
             - openssl aes-256-cbc -pass pass:$OPENSSL_PWD -in private-key.gpg.enc -out private-key.gpg -d
             - gpg --import --batch private-key.gpg
