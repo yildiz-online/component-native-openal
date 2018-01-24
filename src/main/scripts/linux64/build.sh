@@ -1,5 +1,11 @@
 cmake ../../c++ \
 -DCMAKE_BUILD_TYPE=Release \
+-DALSOFT_EXAMPLES=OFF \
+-DALSOFT_TESTS=OFF \
+-DALSOFT_UTILS=OFF \
+-DALSOFT_CONFIG=OFF \
+-DALSOFT_HRTF_DEFS=OFF \
+-DALSOFT_AMBDEC_PRESETS=OFF \
 -DCMAKE_INSTALL_PREFIX="../../../../target/classes/linux64" \
 -G "Unix Makefiles"
 
