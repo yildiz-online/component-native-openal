@@ -30,7 +30,7 @@
   <url>https://bitbucket.org/yildiz-engine-team/component-native-openal</url>
 
   <artifactId>component-native-openal</artifactId>
-  <version>1.18.1.2-SNAPSHOT</version>
+  <version>1.19.1.0-SNAPSHOT</version>
 
   <packaging>jar</packaging>
   <inceptionYear>2017</inceptionYear>
