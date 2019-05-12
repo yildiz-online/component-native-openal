@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 cmake ../../c++ \
 -DCMAKE_BUILD_TYPE=Release \
 -DALSOFT_EXAMPLES=OFF \
