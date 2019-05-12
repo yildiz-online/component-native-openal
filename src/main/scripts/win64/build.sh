@@ -21,4 +21,4 @@ rm openal.pc
 rm OpenALConfig.cmake
 rm version.h
 
-return $r1
+exit ${r1}
